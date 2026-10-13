@@ -1,6 +1,6 @@
 # ai-tools
 
-Agents and skills for AI coding tools, used in elbits.no product work. Each tool has its own folder with the same agents and skills, adapted to that tool's format.
+Agents and skills for AI coding tools. Each tool has its own folder with the same agents and skills, adapted to that tool's format.
 
 ## Structure
 

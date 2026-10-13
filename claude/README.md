@@ -41,4 +41,3 @@ Pipeline: `service-designer` → `elbits-ux-designer` → `elbits-ui-designer` �
 ## Requirements
 
 - Skills used by the agents: `elbriks-design-system` (UX, UI, frontend), `uutilsynet` (a11y) and `elbits-brand-design`. Install them in the same scope (`.claude/skills/` or `~/.claude/skills/`), or the agents will lack their rules.
-- `elbits-*` agents are specific to elbits.no products. `service-designer` and `a11y-specialist` are not.
