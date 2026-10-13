@@ -1,0 +1,6 @@
+interface:
+  display_name: "Front-end development"
+  short_description: "Build secure, accessible, maintainable web frontends"
+  default_prompt: "Use $front-end-development to implement or review this web project with appropriate architecture and verified quality checks."
+policy:
+  allow_implicit_invocation: true

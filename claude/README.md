@@ -1,6 +1,9 @@
-# Claude Code agents
+# Claude Code agents and skills
 
-Subagents for Claude Code. Each `agents/*.md` is one agent (frontmatter plus instructions).
+Subagents and skills for Claude Code.
+
+- `agents/*.md`: one agent each (frontmatter plus instructions).
+- `skills/<name>/`: one skill each (`SKILL.md` plus `references/`).
 
 ## Install
 
@@ -17,6 +20,17 @@ mkdir -p ~/.claude/agents && cp claude/agents/*.md ~/.claude/agents/
 ```
 
 A project agent overrides a global agent with the same name. Restart Claude Code, or run `/agents`, to load them.
+
+Skills, per project or globally:
+
+```sh
+mkdir -p .claude/skills && cp -R claude/skills/* .claude/skills/
+mkdir -p ~/.claude/skills && cp -R claude/skills/* ~/.claude/skills/
+```
+
+## Skills
+
+- `front-end-development`: build, debug, refactor and review web frontends (architecture, security, accessibility, performance, testing).
 
 ## Use
 

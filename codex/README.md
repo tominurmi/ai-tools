@@ -1,6 +1,9 @@
-# Codex agents
+# Codex agents and skills
 
-Custom agents for OpenAI Codex. Each `agents/*.toml` is one agent (`name`, `description`, `sandbox_mode`, `developer_instructions`).
+Custom agents and skills for OpenAI Codex.
+
+- `agents/*.toml`: one agent each (`name`, `description`, `sandbox_mode`, `developer_instructions`).
+- `skills/<name>/`: one skill each (`SKILL.md`, `references/` and optional `agents/openai.yaml` for UI metadata and invocation policy).
 
 ## Install
 
@@ -17,6 +20,17 @@ mkdir -p ~/.codex/agents && cp codex/agents/*.toml ~/.codex/agents/
 ```
 
 Codex identifies an agent by its `name` field, not the file name. Start a new Codex session to load them.
+
+Skills, per project or globally:
+
+```sh
+mkdir -p .agents/skills && cp -R codex/skills/* .agents/skills/
+mkdir -p ~/.agents/skills && cp -R codex/skills/* ~/.agents/skills/
+```
+
+## Skills
+
+- `front-end-development`: build, debug, refactor and review web frontends (architecture, security, accessibility, performance, testing). Codex can use it implicitly, or call it with `$front-end-development`.
 
 ## Use
 
