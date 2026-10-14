@@ -34,6 +34,7 @@ Pipeline: service designer → UX designer → UI designer → frontend develope
 | Skill | Purpose |
 | --- | --- |
 | `front-end-development` | Build, debug, refactor and review web frontends (architecture, security, accessibility, performance, testing) |
+| `uutilsynet` | WCAG/Uutilsynet checklist: the 48 requirements Norwegian web solutions are tested against. User-invoked only |
 
 ## Keep the versions in sync
 

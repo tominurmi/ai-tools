@@ -1,0 +1,6 @@
+interface:
+  display_name: "Uutilsynet"
+  short_description: "WCAG/Uutilsynet checklist: the 48 requirements for Norwegian web solutions"
+  default_prompt: "Use $uutilsynet to audit this finished screen or flow against the 48 Uutilsynet requirements."
+policy:
+  allow_implicit_invocation: false

@@ -31,6 +31,7 @@ mkdir -p ~/.claude/skills && cp -R claude/skills/* ~/.claude/skills/
 ## Skills
 
 - `front-end-development`: build, debug, refactor and review web frontends (architecture, security, accessibility, performance, testing).
+- `uutilsynet`: WCAG/Uutilsynet checklist (48 requirements). Run it with `/uutilsynet`; `a11y-specialist` preloads it.
 
 ## Use
 
@@ -40,4 +41,4 @@ Pipeline: `service-designer` → `elbits-ux-designer` → `elbits-ui-designer` �
 
 ## Requirements
 
-- Skills used by the agents: `elbriks-design-system` (UX, UI, frontend), `uutilsynet` (a11y) and `elbits-brand-design`. Install them in the same scope (`.claude/skills/` or `~/.claude/skills/`), or the agents will lack their rules.
+- Skills used by the agents: `elbriks-design-system` (UX, UI, frontend), `uutilsynet` (a11y, in this repo) and `elbits-brand-design`. Install them in the same scope (`.claude/skills/` or `~/.claude/skills/`), or the agents will lack their rules.

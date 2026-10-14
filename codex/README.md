@@ -31,6 +31,7 @@ mkdir -p ~/.agents/skills && cp -R codex/skills/* ~/.agents/skills/
 ## Skills
 
 - `front-end-development`: build, debug, refactor and review web frontends (architecture, security, accessibility, performance, testing). Codex can use it implicitly, or call it with `$front-end-development`.
+- `uutilsynet`: WCAG/Uutilsynet checklist (48 requirements). Explicit only: call it with `$uutilsynet`.
 
 ## Use
 
@@ -50,5 +51,5 @@ To let Codex delegate on its own, add this to the project `AGENTS.md`:
 ## Requirements
 
 - Agents use `sandbox_mode = "workspace-write"` so they can write specs and prototypes. Subagents inherit the parent's approval policy.
-- Skills used by the agents: `elbriks-design-system` (UX, UI, frontend), `uutilsynet` (a11y) and `elbits-brand-design`. Install them as Codex skills, or the agents will ask for the source and not invent values.
+- Skills used by the agents: `elbriks-design-system` (UX, UI, frontend), `uutilsynet` (a11y, in this repo) and `elbits-brand-design`. Install them as Codex skills, or the agents will ask for the source and not invent values.
 - Web access (research, Nav Aksel) depends on your Codex network and search settings.
