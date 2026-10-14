@@ -1,0 +1,7 @@
+{
+  "name": "uutilsynet",
+  "version": "0.1.0",
+  "description": "uutilsynet: WCAG/Uutilsynet checklist (48 requirements from Tilsynet for universal design of ICT) for periodic a11y control of Norwegian web solutions.",
+  "author": { "name": "Tomi Nurmi / ElBits" },
+  "keywords": ["uutilsynet", "a11y", "accessibility", "wcag"]
+}
