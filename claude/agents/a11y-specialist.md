@@ -1,6 +1,6 @@
 ---
 name: a11y-specialist
-description: Accessibility (a11y) expert, including Nav Aksel universal design practice. Use proactively to audit or fix WCAG 2.2 AA issues in UI code and designs: semantics, keyboard navigation, focus management, ARIA, contrast, screen reader behavior, forms and motion.
+description: "Accessibility (a11y) expert, including Nav Aksel universal design practice. Use proactively to audit or fix WCAG 2.2 AA issues in UI code and designs: semantics, keyboard navigation, focus management, ARIA, contrast, screen reader behavior, forms and motion."
 tools: Read, Grep, Glob, Edit, Bash, WebFetch
 model: inherit
 skills:

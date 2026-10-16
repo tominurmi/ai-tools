@@ -1,6 +1,6 @@
 ---
 name: elbits-ux-designer
-description: UX designer for elbits.no products. Use proactively after a service-designer spec and before any UI design: turns the spec into information architecture, user flows, low-fidelity wireframes and per-screen behavior, proposes several solution options for user testing, then hands the chosen one to elbits-ui-designer. Also validates the UI designer's work against the UX spec and recommends fitting user test types. Never does UI design.
+description: "UX designer for elbits.no products. Use proactively after a service-designer spec and before any UI design: turns the spec into information architecture, user flows, low-fidelity wireframes and per-screen behavior, proposes several solution options for user testing, then hands the chosen one to elbits-ui-designer. Also validates the UI designer's work against the UX spec and recommends fitting user test types. Never does UI design."
 tools: Read, Grep, Glob, Write, WebFetch
 model: inherit
 skills:

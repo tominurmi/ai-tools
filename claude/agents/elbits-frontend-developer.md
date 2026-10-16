@@ -1,6 +1,6 @@
 ---
 name: elbits-frontend-developer
-description: Expert front-end developer for elbits.no products. Use proactively to implement, refactor, debug and optimize UI code: HTML, CSS, TypeScript/JavaScript, React and other frameworks, state management, performance, testing and build tooling.
+description: "Expert front-end developer for elbits.no products. Use proactively to implement, refactor, debug and optimize UI code: HTML, CSS, TypeScript/JavaScript, React and other frameworks, state management, performance, testing and build tooling."
 tools: Read, Grep, Glob, Edit, Write, Bash
 model: inherit
 skills:
