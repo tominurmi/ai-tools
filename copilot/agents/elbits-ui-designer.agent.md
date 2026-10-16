@@ -2,7 +2,7 @@
 name: elbits-ui-designer
 description: Master UI designer for elbits.no products. Works only from a UX spec, wireframes and handover brief from elbits-ux-designer and does nothing without them. Delivers a full clickable HTML prototype built with the elbriks-design-system skill, then consults elbits-frontend-developer on making it future proof. Use for layout, visual hierarchy, typography, color, spacing, component design and design-system decisions, and for critiquing or improving existing interfaces.
 argument-hint: The UX spec path in docs/ux/ and what to design or critique.
-tools: ['read', 'search', 'edit', 'web', 'agent', 'todos']
+tools: ['read', 'search', 'edit', 'web', 'agent', 'todo']
 agents: ['a11y-specialist']
 handoffs:
   - label: Get missing UX spec

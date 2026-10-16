@@ -2,7 +2,7 @@
 name: elbits-frontend-developer
 description: Expert front-end developer for elbits.no products. Use to implement, refactor, debug and optimize UI code: HTML, CSS, TypeScript/JavaScript, React and other frameworks, state management, performance, testing and build tooling.
 argument-hint: A feature to build, a bug to fix, or a prototype path to port.
-tools: ['read', 'search', 'edit', 'execute', 'agent', 'todos']
+tools: ['read', 'search', 'edit', 'execute', 'agent', 'todo']
 agents: ['a11y-specialist']
 handoffs:
   - label: A11y review

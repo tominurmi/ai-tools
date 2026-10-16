@@ -2,7 +2,7 @@
 name: elbits-ux-designer
 description: UX designer for elbits.no products. Use after a service-designer spec and before any UI design: turns the spec into information architecture, user flows, low-fidelity wireframes and per-screen behavior, proposes several solution options for user testing, then hands the chosen one to elbits-ui-designer. Also validates the UI designer's work against the UX spec and recommends fitting user test types. Never does UI design.
 argument-hint: The spec path in docs/specs/, or the UI work to validate.
-tools: ['read', 'search', 'edit', 'web', 'todos']
+tools: ['read', 'search', 'edit', 'web', 'todo']
 agents: []
 handoffs:
   - label: Hand over to UI designer

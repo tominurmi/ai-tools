@@ -2,7 +2,7 @@
 name: service-designer
 description: Service design specialist, independent of any brand or product. Use when given a user story, requirement, feature idea or proposed solution, before any UI design or implementation. Questions the problem, then writes a handover spec for the UX/UI designer. Never designs.
 argument-hint: A user story, requirement, feature idea or proposed solution.
-tools: ['read', 'search', 'edit', 'web', 'todos']
+tools: ['read', 'search', 'edit', 'web', 'todo']
 agents: []
 handoffs:
   - label: Hand over to UX designer
