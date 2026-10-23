@@ -2,7 +2,7 @@
 
 Custom agents and skills for OpenAI Codex.
 
-- `agents/*.toml`: one agent each (`name`, `description`, `sandbox_mode`, `developer_instructions`).
+- `agents/*.toml`: one agent each (`name`, `description`, `developer_instructions`).
 - `skills/<name>/`: one skill each (`SKILL.md`, `references/` and optional `agents/openai.yaml` for UI metadata and invocation policy).
 
 ## Install
@@ -50,6 +50,6 @@ To let Codex delegate on its own, add this to the project `AGENTS.md`:
 
 ## Requirements
 
-- Agents use `sandbox_mode = "workspace-write"` so they can write specs and prototypes. Subagents inherit the parent's approval policy.
+- Subagents inherit the parent session's sandbox and approval settings (a custom agent file can't override them). Run Codex with workspace-write, or set it with `/permissions`, so the agents can write specs and prototypes.
 - Skills used by the agents: `elbriks-design-system` (UX, UI, frontend), `uutilsynet` (a11y, in this repo) and `elbits-brand-design`. Install them as Codex skills, or the agents will ask for the source and not invent values.
 - Web access (research, Nav Aksel) depends on your Codex network and search settings.
