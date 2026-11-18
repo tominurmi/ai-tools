@@ -1,6 +1,9 @@
 ---
 name: front-end-development
 description: Design, implement, debug, refactor, and review web frontends with version-verified APIs, maintainable JavaScript/TypeScript, appropriate framework choices, secure client/server boundaries, accessibility, performance, and practical testing. Use for HTML, CSS, JavaScript, TypeScript, React, Next.js, Vue, Nuxt, Svelte, SvelteKit, Angular, Astro, browser UI, forms, state management, frontend architecture, and code hygiene. Support Norwegian and English. Exclude native mobile, Godot implementation, backend-only tasks, and pure graphic design.
+metadata:
+  author: Tomi Nurmi
+  web: https://tominurmi.net
 ---
 
 # Front-end development

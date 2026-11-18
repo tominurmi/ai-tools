@@ -1,6 +1,9 @@
 ---
 name: ios-development
 description: Implement, debug, refactor, and review native iOS and iPadOS apps using Xcode, Swift, SwiftUI, and UIKit with version-verified Apple APIs, maintainable architecture, security, privacy, accessibility, and practical testing. Use for Xcode projects, Swift packages supporting iOS, concurrency, persistence, networking, performance, signing diagnostics, and app delivery preparation. Support Norwegian and English. Exclude unrelated web, Android, and backend-only work.
+metadata:
+  author: Tomi Nurmi
+  web: https://tominurmi.net
 ---
 
 # iOS Developer

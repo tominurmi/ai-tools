@@ -1,5 +1,8 @@
 # elbits-frontend-developer
 
+Author: Tomi Nurmi
+Web: https://tominurmi.net
+
 Expert front-end developer for elbits.no products. Use proactively to implement, refactor, debug and optimize UI code: HTML, CSS, TypeScript/JavaScript, React and other frameworks, state management, performance, testing and build tooling.
 
 Related skills: `elbriks-design-system`.

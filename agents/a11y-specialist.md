@@ -1,5 +1,8 @@
 # a11y-specialist
 
+Author: Tomi Nurmi
+Web: https://tominurmi.net
+
 Accessibility (a11y) expert, including Nav Aksel universal design practice. Use proactively to audit or fix WCAG 2.2 AA issues in UI code and designs: semantics, keyboard navigation, focus management, ARIA, contrast, screen reader behavior, forms and motion.
 
 Related skills: `uutilsynet`.

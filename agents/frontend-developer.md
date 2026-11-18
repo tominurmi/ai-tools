@@ -1,5 +1,8 @@
 # frontend-developer
 
+Author: Tomi Nurmi
+Web: https://tominurmi.net
+
 Senior, brand-independent front-end engineer based on the front-end-development skill. Implements features and UX/UI prototypes, debugs, refactors and reviews HTML, CSS, JavaScript/TypeScript and framework code with project-aware architecture, version-verified APIs, security, accessibility, performance and proportionate testing.
 
 Related skills: `front-end-development`.

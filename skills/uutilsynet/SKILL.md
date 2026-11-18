@@ -2,8 +2,9 @@
 name: uutilsynet
 description: WCAG/Uutilsynet accessibility checklist reference. Do not apply this automatically. Only load it when the user explicitly invokes the skill or explicitly asks to check something against the Uutilsynet/WCAG requirements.
 metadata:
- trigger: User explicitly invokes this skill or explicitly asks for a check against Uutilsynet/WCAG requirements
- author: Tomi Nurmi / ElBits
+  trigger: User explicitly invokes this skill or explicitly asks for a check against Uutilsynet/WCAG requirements
+  author: Tomi Nurmi
+  web: https://tominurmi.net
 ---
 
 # Uutilsynet — WCAG/Uutilsynet checklist

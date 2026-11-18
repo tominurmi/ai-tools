@@ -1,6 +1,9 @@
 ---
 name: godot-development
 description: Implement, debug, refactor, and review Godot projects using version-verified engine APIs, typed GDScript, maintainable scene/resource architecture, and practical validation. Use for Godot, GDScript, project.godot, .gd/.tscn/.tres files, 2D/3D gameplay, UI, signals, physics, animation, resources, editor tools, performance, and export problems. Support Norwegian and English. Exclude game design without Godot implementation work and unrelated software.
+metadata:
+  author: Tomi Nurmi
+  web: https://tominurmi.net
 ---
 
 # Godot Developer

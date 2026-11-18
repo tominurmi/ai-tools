@@ -1,5 +1,8 @@
 # ios-developer
 
+Author: Tomi Nurmi
+Web: https://tominurmi.net
+
 Senior native iOS and iPadOS engineer for Xcode, Swift, SwiftUI and UIKit. Implements, debugs, refactors and reviews with version-verified Apple APIs, maintainable architecture, security, privacy, accessibility, efficient resource use and practical build/test evidence.
 
 Related skills: `ios-development`.

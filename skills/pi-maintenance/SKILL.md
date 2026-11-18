@@ -2,6 +2,9 @@
 name: pi-maintenance
 description: Inspect, configure, troubleshoot and maintain Pi and this package's usage, background-agents and modes extensions. Use for Pi extensions, skills, MCP, model configuration, themes, TUI, SDK and usage-widget questions. Do not use for unrelated coding tasks.
 compatibility: Pi coding agent; reference APIs verified against Pi 1.5.2. Recheck the active version before changes.
+metadata:
+  author: Tomi Nurmi
+  web: https://tominurmi.net
 ---
 
 # Pi maintenance

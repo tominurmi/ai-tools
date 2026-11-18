@@ -1,6 +1,9 @@
 ---
 name: design-and-validate-games
 description: Design and review games across genres using reusable principles and patterns, validate mechanics and game logic, and plan or analyze player testing. Use for game concepts, core loops, rules, economies, progression, balance, exploits, state transitions, playtest plans, onboarding, accessibility, and evidence-based game reviews in English or Norwegian. Do not use for unrelated software testing or playing a game.
+metadata:
+  author: Tomi Nurmi
+  web: https://tominurmi.net
 ---
 
 # Design and Validate Games
