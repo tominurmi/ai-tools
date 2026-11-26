@@ -38,14 +38,20 @@ The original content is based on the former Claude versions, supplemented with l
 | [a11y-specialist](agents/a11y-specialist.md) | Audits and fixes WCAG 2.2 AA issues, including Nav Aksel practice. Not brand-specific |
 | [ios-developer](agents/ios-developer.md) | Native iOS/iPadOS implementation, debugging and review with Xcode, Swift, SwiftUI and UIKit |
 | [elbits-ux-designer](agents/elbits/elbits-ux-designer.md) | Information architecture, user flows, wireframes and solution options for Elbits projects. Never does UI design |
-| [elbits-ui-designer](agents/elbits/elbits-ui-designer.md) | Clickable HTML prototypes with `elbriks-design-system`, from the UX spec only |
+| [elbits-ui-designer](agents/elbits/elbits-ui-designer.md) | Clickable React prototypes with Elbriks from the Elbriks Storybook MCP, from the UX spec only |
 | [elbits-frontend-developer](agents/elbits/elbits-frontend-developer.md) | Implements, refactors, debugs and optimizes Elbits UI code |
 
 Pipeline: service designer → UX designer → UI designer → frontend developer, with the a11y specialist consulted along the way.
 
 UX accepts a service-design spec or equivalent product brief. UI requires a UX spec, wireframes and handover brief from the UX agent or equivalent project documentation. A complete design pipeline is not required for debugging, refactoring or bounded changes with clear requirements.
 
-The general agents do not require company-specific skills. The Elbits agents reference `elbriks-design-system` and, for branding work, `elbits-brand-design`. These skills are not included and must be supplied separately.
+The general agents do not require company-specific skills. The Elbits agents use the Elbriks Storybook MCP server for components, tokens, icons and patterns, and `elbits-brand-design` for branding work. The skill is not included and must be supplied separately. Add the MCP server with the name `elbriks`, as described on the MCP page in the Elbriks Storybook. For Claude Code:
+
+```sh
+claude mcp add --scope user --transport http elbriks https://storybook.elbits.no/mcp
+```
+
+`elbits-ui-designer` builds the prototype as a React app on Vite, so it needs Node.js and npm.
 
 ## Skills
 
